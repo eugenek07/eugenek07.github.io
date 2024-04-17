@@ -1,0 +1,91 @@
+body {
+    background-color: #5586C9;
+    /* padding: 100px; */
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    font-weight: 300;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+.hero-image {
+    background-image: url("images/computer.gif");
+    background-color: #5586C9;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1, h2, h3, h4, p{
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #F2CDF6;
+}
+p {
+    color: aliceblue;
+}
+
+kbd {
+    color: #121212;
+}
+table, th, td {
+    border:1px solid #F2CDF6;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+th, td {
+    color: aliceblue
+}
+.matrix {
+    border-collapse: collapse;
+    font-family:'Times New Roman', Times, serif;
+    background-color: white;
+    border: 1.5px solid black; /* Border around the entire matrix */
+    width: 100%;
+    margin: auto;
+}
+
+.matrix td {
+    border: 1px solid #ddd; /* Lighter border for cells */
+    padding: 1vw; /* Padding within cells */
+    text-align: center; /* Centering the text in cells */
+    color: black;
+    font-size: 1vw;
+}
+.box {
+    width: 80%;
+    height: 100%;
+    background-color: #475297;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border: 10px outset #24416D;
+}
+a:link {
+    color: #F2CDF6;
+    text-decoration: none;
+}
+a:visited {
+    color: #F2CDF6;
+    text-decoration: none;
+}
+a:hover {
+    color: #B758CE;
+    text-decoration: none;
+}
+a:active {
+    color: #DB3391;
+    text-decoration: none;
+}
+equation {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 25px;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    margin: 10px 0; 
+    display: inline-block;
+}
